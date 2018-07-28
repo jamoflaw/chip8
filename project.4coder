@@ -1,0 +1,28 @@
+version(1);
+
+project_name = "Evolution";
+
+patterns = {
+  "*.cpp",
+  "*.h",
+  "*.sh",
+  "*.bat",
+  "*.frag",
+  "*.vert",
+  "*.4coder",
+  "CMakeLists.txt",
+};
+
+blacklist_patterns = {
+  ".cmake*",
+};
+
+load_paths = {
+ {
+   { 
+     {.path = ".", .recursive = true, .relative = true,}
+   },
+   .os = "linux", 
+ },
+};
+
