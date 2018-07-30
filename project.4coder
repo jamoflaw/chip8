@@ -1,6 +1,6 @@
 version(1);
 
-project_name = "Evolution";
+project_name = "Chip8-Emulator";
 
 patterns = {
   "*.cpp",
